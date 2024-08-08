@@ -23,7 +23,7 @@ SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob
 ### Delivery Duration
 - **Time of Day**: Average delivery durations are shortest in the early mornings (0800h-1000h) at around 20 mins, while late nights (1900h-2200h) experience the longest durations at around 30 mins.
 - **Contributing Factors**: High traffic density, jam conditions, cloudy and foggy weather, and multiple prior deliveries in the same trip contribute the most to extended delivery durations.
-- **Vehicle Impact**: 59% of deliveries were made using motorcycles, which had longer average durations than Scooter, Electric Scooter and Bicycle. However, the number of deliveries made with bicycles is not robust enough to accurately see the impact.
+- **Vehicle Impact**: 59% of deliveries were made using motorcycles, which had longer average durations than scooters, electric scooters and bicycles. However, the number of deliveries made with bicycles is not robust enough to accurately see the impact.
 
 ### Delivery Rating
 - **Stability**: Delivery ratings are relatively stable, remaining within the 4.6-4.7 range, and are less affected by most factors.
