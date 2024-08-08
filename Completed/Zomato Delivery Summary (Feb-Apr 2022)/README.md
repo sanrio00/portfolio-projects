@@ -8,14 +8,16 @@ Zomato is an Indian multinational food delivery company. Using the dataset avail
 
 SQL queries (data cleaning & basic EDA) can be found in the folder. Interactive Dashboard can be found in my [Tableau Public link](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-### KPI metrics and Dimensions
+### KPI metrics
 1. Delivery Rating: Ratings assigned to the delivery person (assumed to be out of 5.0)
 2. Delivery Duration: Time taken for delivery in minutes
-3. Delivery Start Hour: Hour the order was picked up from the restaurant for delivery
-4. Weather Conditions: Cloudy, Fog, Sandstorms, Stormy, Sunny, Windy
-5. Road Traffic Density: Low, Medium, High, Jam
-6. No. of Prior Deliveries in Same Trip: Range from 0-3
-7. Vehicle Conditions: Range from 0-3 (not known what each score means)
+
+## Factors affecting KPI metrics
+1. Delivery Start Hour: Hour the order was picked up from the restaurant for delivery
+2. Weather Conditions: Cloudy, Fog, Sandstorms, Stormy, Sunny, Windy
+3. Road Traffic Density: Low, Medium, High, Jam
+4. No. of Prior Deliveries in Same Trip: Range from 0-3
+5. Vehicle Conditions: Range from 0-3 (not known what each score means)
 
 ## Summary of Insights
 ### Delivery Duration
