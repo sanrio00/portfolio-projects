@@ -6,7 +6,7 @@ Zomato is an Indian multinational food delivery company. Using the dataset avail
 
 **Subjects Covered**: UPDATE/SET, ALTER TABLE, Aggregation with GROUP BY, WHERE, Views
 
-SQL queries ([data cleaning](Zomato%20Delivery%20Summary%20(Feb-Apr%202022)/sql_data_cleaning.sql) & [basic EDA](Zomato%20Delivery%20Summary%20(Feb-Apr%202022)/sql_basic_EDA.sql)) can be found in the repository. Interactive Dashboard can be found in my [Tableau Public link](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Zomato%20Delivery%20Summary%20(Feb-Apr%202022)/sql_data_cleaning.sql) & [basic EDA](Zomato%20Delivery%20Summary%20(Feb-Apr%202022)/sql_basic_EDA.sql)) can be found in the repository. Interactive Dashboard can be found in my [Tableau Public link](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ### KPI metrics
 1. Delivery Rating: Ratings assigned to the delivery person (assumed to be out of 5.0)
