@@ -4,7 +4,7 @@ Zomato is an Indian multinational food delivery company. Using the dataset avail
 
 **Tools**: PostgreSQL, Tableau 
 
-**Subjects Covered**: UPDATE/SET, ALTER TABLE, Agrregation with GROUP BY, WHERE, Views
+**Subjects Covered**: UPDATE/SET, ALTER TABLE, Aggregation with GROUP BY, WHERE, Views
 
 Interactive Dashboard can be found in my [Tableau Public link](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
