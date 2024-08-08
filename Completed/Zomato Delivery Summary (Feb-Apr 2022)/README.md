@@ -1,5 +1,5 @@
 # Zomato Delivery Summary Analysis (Feb-Apr 2022)
-## Brief Statement
+## Brief Overview
 Zomato is an Indian multinational food delivery company. Using the dataset available in [Kaggle](https://www.kaggle.com/datasets/saurabhbadole/zomato-delivery-operations-analytics-dataset/data), I clean and analyze 40,786 deliveries recorded from Feb-Apr 2022, discovering patterns that affect KPI metrics, and giving recommendations to optimize future deliveries.
 
 **Tools**: PostgreSQL, Tableau 
