@@ -21,21 +21,22 @@ SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob
 
 ## Summary of Insights
 ### Delivery Duration
-- Average delivery durations tend to be the shortest in early mornings (0800h-1000h) at around 20 mins, while late nights (1900h-2200h) have the longest durations at around 30 mins.
-- High and Jam Traffic Density, Cloudy and Fog Conditions, and multiple prior deliveries in the same trip contribute the most to delivery duration
-- 59% of deliveries were made using motorcycles and had longer average durations than Scooter, Electric Scooter and Bicycle. However, the number of deliveries made with bicycles is not robust enough to accurately see the impact.
+- **Time of Day**: Average delivery durations are shortest in the early mornings (0800h-1000h) at around 20 mins, while late nights (1900h-2200h) experience the longest durations at around 30 mins.
+- **Contributing Factors**: High traffic density, jam conditions, cloudy and foggy weather, and multiple prior deliveries in the same trip contribute the most to extended delivery durations.
+- **Vehicle Impact** 59% of deliveries were made using motorcycles, which had longer average durations than Scooter, Electric Scooter and Bicycle. However, the number of deliveries made with bicycles is not robust enough to accurately see the impact.
 
 ### Delivery Rating
-- Delivery Rating is less affected by most factors, with the rating staying stable within 4.6-4.7 range.
-- Both delivery duration and rating fell in performance with increasing prior deliveries in the same trip. 2 prior deliveries has the lowest rating at 4.42.
+- **Stability**: Delivery ratings are relatively stable, remaining within the 4.6-4.7 range, and are less affected by most factors.
+- **Multiple Deliveries**: Both delivery duration and rating decline with an increasing number of prior deliveries in the same trip. For instance, trips with 2 prior deliveries have the lowest average rating of 4.42.
 
 ## Recommendations and next steps
-- Avoid late night deliveries with heavy jam conditions. Plan more deliveries in the morning and during sunny weather.
-- Allocate more deliveries to be made using Scooter, Electric Scooter instead of Motorcycles
-- Make direct deliveries as much as possible to avoid multiple deliveries, so consider working with drivers to optimize delivery routes
+###Operational Improvements
+- **Avoid late night deliveries**: Minimize late-night deliveries, especially in heavy traffic conditions. Focus on scheduling more deliveries in the morning and during sunny weather.
+- **Optimize Vehicle Usage**: Allocate more deliveries to scooter and electric scooters instead of motorcycles.
+- **Route Optimization*: Prioritize direct deliveries as much as possible to avoid multiple deliveries, so consider working with drivers to optimize delivery routes
 
-## Data recommendations
-- Current pattern of delivery duration and rating is stable in each month from Feb-Apr 2022. Expand analysis to include more months and years to examine whether there are any anomalies to this trend
-- Expand analysis to include distance to further optimize vehicle type. For example, long-distance deliveries with rough terrain may be better done with motorcycles than scooters.
-- Numerous rows of data were erroneous such as having 0 for the delivery coordinates, and so were not included in this analysis. Investigate with the data team behind this occurrence and ensure these coordinates can be backed up
-- Clarify what each score of Vehicle Condition means
+### Data recommendations
+- **Expand Analysis**: Current pattern of delivery duration and rating is consistent from Feb-Apr 2022. Expand the analysis to include more months and years to check for any anomalies.
+- **Include Distance Analysis**: Consider analyzing the distance to further optimize vehicle type usage. For example, long-distance deliveries over rough terrain may be better suited for motorcycles than scooters.
+- **Data Integrity**: Numerous rows of data were erroneous such as entries with '0' for coordinates, and so were not included in this analysis. Investigate with the data team to ensure accurate data collection in the future
+- **Clarify Vehicle Condition Scores**: Ensure that the meaning of each score related to vehicle condition is clearly defined.
