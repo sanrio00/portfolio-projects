@@ -35,7 +35,7 @@ SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob
 - **Optimize Vehicle Usage**: Allocate more deliveries to scooter and electric scooters instead of motorcycles.
 - **Route Optimization*: Prioritize direct deliveries as much as possible to avoid multiple deliveries, so consider working with drivers to optimize delivery routes
 
-### Data recommendations
+### Data Recommendations
 - **Expand Analysis**: Current pattern of delivery duration and rating is consistent from Feb-Apr 2022. Expand the analysis to include more months and years to check for any anomalies.
 - **Include Distance Analysis**: Consider analyzing the distance to further optimize vehicle type usage. For example, long-distance deliveries over rough terrain may be better suited for motorcycles than scooters.
 - **Data Integrity**: Numerous rows of data were erroneous such as entries with '0' for coordinates, and so were not included in this analysis. Investigate with the data team to ensure accurate data collection in the future
