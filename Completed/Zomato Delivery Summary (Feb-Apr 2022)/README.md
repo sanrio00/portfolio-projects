@@ -30,7 +30,7 @@ SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob
 - **Multiple Deliveries**: Both delivery duration and rating decline with an increasing number of prior deliveries in the same trip. For instance, trips with 2 prior deliveries have the lowest average rating of 4.42.
 
 ## Recommendations and next steps
-###Operational Improvements
+### Operational Improvements
 - **Avoid late night deliveries**: Minimize late-night deliveries, especially in heavy traffic conditions. Focus on scheduling more deliveries in the morning and during sunny weather.
 - **Optimize Vehicle Usage**: Allocate more deliveries to scooter and electric scooters instead of motorcycles.
 - **Route Optimization*: Prioritize direct deliveries as much as possible to avoid multiple deliveries, so consider working with drivers to optimize delivery routes
