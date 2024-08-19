@@ -4,5 +4,5 @@ ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggl
 
 **Tools**: Python (pandas, matplotlib, seaborn)
 
-**Subjects Covered**: Data wrangling, conversion, transformation, bar charts, time series
+**Subjects Covered**: Data wrangling, conversion, transformation, bar charts, time series graphs
 
