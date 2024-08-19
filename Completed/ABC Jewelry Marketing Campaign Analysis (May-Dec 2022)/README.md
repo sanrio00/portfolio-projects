@@ -19,3 +19,5 @@ ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggl
 1. Channel Type - Display, Mobile, Search, Social, Video
 2. Search Tags - Used to categorize ads to help users find relevant ads when they search for jewelry online (e.g. #The Power of X)
 3. Keywords - Used to match queries when users query specific words in search engines (e.g. initial jewelry)
+
+## Summary of Insights
