@@ -46,7 +46,9 @@ ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggl
 - An authoritative source of average CTR in the jewelry space is not available. Instead, I use the [overall industry CTR benchmark](https://www.webfx.com/blog/marketing/whats-good-click-rate-ctr-industry/#:~:text=While%20a%20good%20CTR%20depends,the%20average%20CTR%20is%200.46%25) to categorize CTR into two groups: higher and lower than the benchmark.
 - 76.5% of CTRs are below the average of 1.9%, indicating significant potential for optimization to achieve a higher CTR.
 - After evaluating factors like channel type, day of the week, and keywords for their impact on CTR, no clear trends were identified that consistently characterize campaigns with higher CTRs.
-- Alternatively, improving CTR could also be achieved by reducing average CPC and CPM.
+- Alternatively, improving CTR in teh long run could also be achieved by reducing average CPC and CPM.
 
 **Assessment of Average CPC and CPM**:
-- 
+- Both CPC and CPM are on average higher in May 2022, likely because the campaigns have just begun and are still being optimized for cost.
+- Average CPC and CPM declines sharply and stabilizes in the next few months]
+- Monitor cost in the starting months and lower media spend to optimize both metrics
