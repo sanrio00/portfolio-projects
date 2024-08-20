@@ -6,7 +6,7 @@ ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggl
 
 **Subjects Covered**: Data wrangling, conversion, transformation, bar charts, time series graphs
 
-[Jupyter Notebook](https://github.com/sanrio00/portfolio-projects/blob/812931c0e1909d901e78b2dca871ed43812149f2/Completed/ABC%20Jewelry%20Marketing%20Campaign%20Analysis%20(May-Dec%202022)/marketing_ROI.ipynb) with my code can be found in the repository.
+[Jupyter Notebook](https://github.com/sanrio00/portfolio-projects/blob/b38ea42232faf3a029cedf8a04e23b770d590ffa/Completed/ABC%20Jewelry%20Marketing%20Campaign%20Analysis%20(May-Dec%202022)/marketing_ROI.ipynb) with my code can be found in the repository.
 
 ### KPI metrics
 1. Impressions: Number of times users see the ad
