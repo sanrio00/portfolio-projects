@@ -33,23 +33,22 @@ Out of 156 campaigns, the following campaign IDs performed the best in these met
 
 ### Impact of Search Tags on Clicks, based on Channel Type:
 - On average, #The Power of X attracted the highest number of clicks across campaigns
-- When split by channel type, most channels hover around 40-50 average clicks per search tag, which means no channel type is significantly worth less investing in.
+- When split by channel type, most channels hover around 40-50 average clicks per search tag, suggesting no significant differences in channel effectiveness.
 - Video is most effective on #Embrace Your Individuality with X. To investigate the impact of Video further, find out whether users have more clicks with short or long-form content on Video.
 - Display and Social drive the most clicks for #The Power of X. Since Display and Social are channels with higher reach, enhance creative quality to resonate more with the existing audience rather than specifically reach new users.
-- Mobile is most effective on #The Ultimate Fashion Statement with X. Optimize ad to better fit on mobile, have more interactive mobile-friendly elements like CTA buttons and hashtags.
+- Mobile is most effective on #The Ultimate Fashion Statement with X. Optimize ads for mobile by including more interactive elements like CTA buttons and hashtags.
 
 ### Average CTR over time:
 - Notably, there is a sharp peak in Sept 2022 to nearly 8% average CTR at its highest before declining to around 2% in the other months.
-- Include more data to check for seasonality patterns across several years. If Sept does have a noticeably higher CTR than other months, it is beneficial to allocate more budget on Sept.
+- “Include more data to check for seasonality across years. If September consistently shows higher CTR, allocate more budget to that month.
 - Investigate creative, media cost, channel allocation in Sept to replicate performance in other months
 
 ### Assessment of Average CTR Performance:
 - An authoritative source of average CTR in the jewelry space is not available. Instead, I use the [overall industry CTR benchmark](https://www.webfx.com/blog/marketing/whats-good-click-rate-ctr-industry/#:~:text=While%20a%20good%20CTR%20depends,the%20average%20CTR%20is%200.46%25) to categorize CTR into two groups: higher and lower than the benchmark.
-- 76.5% of CTRs are below the overall industry average of 1.9%, indicating significant potential for optimization to achieve a higher CTR.
-- After evaluating factors like channel type, day of the week, and keywords for their impact on CTR, no clear trends were identified that consistently characterize campaigns with higher CTRs.
-- Alternatively, improving CTR in the long run could also be achieved by reducing average CPC and CPM.
+- 76.5% of CTRs are below the overall industry average of 1.9%, highlitng potential for optimization.
+- No clear trends were identified in factors like channel type or keywords that consistently lead to higher CTRs.
+- Alternatively, reducing average CPC and CPM could also improve CTR in the long term.
 
 ### Assessment of Average CPC and CPM over time:
-- Both CPC and CPM are on average higher in May 2022, likely because the campaigns have just begun and are still being optimized for cost.
-- Average CPC and CPM declines sharply and stabilizes in the next few months
-- Monitor cost in the starting months and lower media spend to optimize both metrics
+- Both CPC and CPM are on average higher in May 2022, likely because the campaigns have just begun and are still being optimized for cost. They stabilize after sharp declines in the following months.
+- Monitor cost in the starting months and lower media spend to optimize both metrics.
