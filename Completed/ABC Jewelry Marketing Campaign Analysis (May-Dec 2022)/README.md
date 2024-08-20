@@ -21,16 +21,17 @@ ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggl
 3. Keywords - Used to match queries when users query specific words in search engines (e.g. initial jewelry)
 
 ## Summary of Insights with Recommendations
-**Best Performing Campaign IDs**: Out of 156 campaigns, the following campaign IDs performed the best in these metrics.
+### Best Performing Campaign IDs
+Out of 156 campaigns, the following campaign IDs performed the best in these metrics.
 - Average CPC: ID 3033 at USD$0.08 per click
 - Average CPM: ID 3202 at $1.23 per 1000 impressions 
 - Average CTR: ID 2980 at 24.7%
 
-**Impact of Channel Type on Clicks and Impressions**: 
+###Impact of Channel Type on Clicks and Impressions: 
 - Display and Video channels have the highest average number of clicks. However, reallocating more budget to Mobile could be advantageous due to its superior click-to-impression efficiency. This would ensure sustained click performance even when the media budget runs lower.
 - Search Channels have the highest average impressions, but are least effective in driving clicks. Consider optimizing CTA strategies and refining communication to make ads more compelling for engagement.
 
-**Impact of Search Tags on Clicks, based on Channel Type**:
+###Impact of Search Tags on Clicks, based on Channel Type:
 - On average, #The Power of X attracted the highest number of clicks across campaigns
 - When split by channel type, most channels hover around 40-50 average clicks per search tag, which means no channel type is significantly worth less investing in.
 - Video is most effective on #Embrace Your Individuality with X. To investigate the impact of Video further, find out whether users have more clicks with short or long-form content on Video.
