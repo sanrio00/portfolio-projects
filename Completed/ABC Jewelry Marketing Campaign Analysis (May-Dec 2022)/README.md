@@ -1,6 +1,6 @@
 # ABC Jewelry Marketing Campaign Analysis (May-Dec 2022)
 ## Brief Overview
-ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggle](https://www.kaggle.com/datasets/rahulchavan99/marketing-campaign-dataset/code), I clean the dataset and analyze 72,603 of campaign data. Presenting the results to the brand and marketing team, I discuss the ROI of the 7-month long campaign using several important KPI metrics, with a focus on Clickthrough Rate (CTR, click/impressions). along with actionable recommendations for future campaigns.
+ABC Jewelry is a fictitious jewelry brand. Using the dataset available in [Kaggle](https://www.kaggle.com/datasets/rahulchavan99/marketing-campaign-dataset/code), I clean the dataset and analyze 72,603 of campaign data. Presenting the results to the brand and marketing team, I discuss the ROI of the 7-month long campaign using several important KPI metrics, with a focus on Clickthrough Rate (CTR = click/impressions), along with actionable recommendations for future campaigns.
 
 **Tools**: Python (pandas, matplotlib, seaborn)
 
@@ -45,11 +45,11 @@ Out of 156 campaigns, the following campaign IDs performed the best in these met
 
 ### Assessment of Average CTR Performance:
 - An authoritative source of average CTR in the jewelry space is not available. Instead, I use the [overall industry CTR benchmark](https://www.webfx.com/blog/marketing/whats-good-click-rate-ctr-industry/#:~:text=While%20a%20good%20CTR%20depends,the%20average%20CTR%20is%200.46%25) to categorize CTR into two groups: higher and lower than the benchmark.
-- 76.5% of CTRs are below the average of 1.9%, indicating significant potential for optimization to achieve a higher CTR.
+- 76.5% of CTRs are below the overall industry average of 1.9%, indicating significant potential for optimization to achieve a higher CTR.
 - After evaluating factors like channel type, day of the week, and keywords for their impact on CTR, no clear trends were identified that consistently characterize campaigns with higher CTRs.
 - Alternatively, improving CTR in the long run could also be achieved by reducing average CPC and CPM.
 
-### Assessment of Average CPC and CPM:
+### Assessment of Average CPC and CPM over time:
 - Both CPC and CPM are on average higher in May 2022, likely because the campaigns have just begun and are still being optimized for cost.
 - Average CPC and CPM declines sharply and stabilizes in the next few months]
 - Monitor cost in the starting months and lower media spend to optimize both metrics
