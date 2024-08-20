@@ -51,5 +51,5 @@ Out of 156 campaigns, the following campaign IDs performed the best in these met
 
 ### Assessment of Average CPC and CPM over time:
 - Both CPC and CPM are on average higher in May 2022, likely because the campaigns have just begun and are still being optimized for cost.
-- Average CPC and CPM declines sharply and stabilizes in the next few months]
+- Average CPC and CPM declines sharply and stabilizes in the next few months
 - Monitor cost in the starting months and lower media spend to optimize both metrics
