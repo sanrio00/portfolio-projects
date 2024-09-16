@@ -16,6 +16,6 @@ _Please note that while the business background is fictitious, the data is real.
 _The data extracted is legal, and only used for learning purposes (namely, to demonstrate the 'Extract' step of an ETL pipeline using web scraping)._
 
 ## Methodology
-**Extract:**
-**Transform:**
-**Load:**
+- **Extract:**
+- **Transform:**
+- **Load:**
