@@ -42,7 +42,7 @@ The proposed ETL process is shown in the illustration map below:
 
 ![image](https://github.com/user-attachments/assets/1ce884c4-ce83-464c-a7c8-2fa0f3f6d57c)
 
-[## Extraction](#extract)
+## [Extraction](#extract)
 We used BeautifulSoup to scrape product details from Newegg.com across multiple pages (page 1 through 6). Each page contained between 30 to 40 gaming mice products, resulting in a total of 217 products.
 
 The extraction process involved identifying the relevant HTML elements for each feature and appending the extracted values to their corresponding lists for further processing.
