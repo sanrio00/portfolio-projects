@@ -77,7 +77,7 @@ Table constraints such as non-negative prices are implemented to ensure that the
 ## Conclusion
 We have demonstrated a simple ETL pipeline to enable Andy to gather competitor data of gaming mice into an accessible database. 
 
-This provides a value-add for Andy to query the most popular brands, compare price ranges or analyze feature trends. This allows Andy to adjust his offerings accordingly to give himself an edge in the gaming mice market.
+This provides a value-add for Andy to query the most popular brands, compare price ranges or analyze feature trends. Andy can then adjust his offerings accordingly to give himself an edge in the gaming mice market.
 
 ## Further Improvements
 **Data Validation Pipelines**: Besides table constraints, we will also consider introducing error handling (i.e. to handle unexpected HTML changes) and data validation pipelines (i.e. to ensure data scraped adheres to if-else guidelines before loading) to flag problematic data.
