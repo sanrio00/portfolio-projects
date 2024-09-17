@@ -44,7 +44,7 @@ Each page consisted of around 30-40 gaming mice products, totalling to 217 produ
 ## Transformation
 Upon printing the length of each feature list (name_list, price_list, rating_list, brand_list, dpi_list, model_number_list, hand_orientation_list), we found that rating, brand, DPI and hand orientation lists have missing elements and are shorter than the original length, which was 217.
 
-The data is then structured into a list of dictionaries, with the product name as the key. Missing values were handled by assigning NaN where applicable, and were stored in a Pandas DataFrame.
+The data is then structured into a list of dictionaries, with each product representing one dictionary. Missing values were handled by assigning NaN where applicable, and were stored in a Pandas DataFrame.
 
 To further clean up the dataset, the following steps were performed:
 1. Similar brands are renamed to their original spelling
