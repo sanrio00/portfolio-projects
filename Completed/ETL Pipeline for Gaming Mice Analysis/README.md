@@ -13,6 +13,7 @@ Andy is not familiar with the gaming mice category. As such, he requires a relia
 - Scrape datetime (to record time and to track any changes over time)
 
 _Please note that while the business background is fictitious, the data is real._
+
 _The data extracted is legal, and only used for learning purposes (namely, to demonstrate the 'Extract' step of an ETL pipeline using web scraping)._
 
 ## Methodology
