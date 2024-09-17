@@ -28,7 +28,9 @@ To gather the information of our competitor gaming mice, we decided to construct
 More details for each step can be found in the links above.
 
 ## **ETL Process Map**
-With future plans to scale up the pipeline as the e-commerce platform is updated with more entries, the proposed ETL process map is shown in the illustration below:
+As the e-commerce platform is updated with more entries, there will be future plans to scale up the pipeline. 
+
+The proposed ETL process map is shown in the illustration below:
 
 
 ## Extraction
