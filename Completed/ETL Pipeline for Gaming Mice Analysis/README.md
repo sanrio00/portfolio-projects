@@ -34,10 +34,14 @@ To gather the information of our competitor gaming mice, we decided to construct
 More details for each step can be found in the links above.
 
 ## **ETL Process Map**
-As the e-commerce platform is updated with more products, there will be future plans to scale up the pipeline. 
+As the e-commerce platform is updated with more products, there will be future plans to scale up the pipeline.
+
+Details of future improvements are discussed here.
 
 The proposed ETL process is shown in the illustration map below:
-![image](https://github.com/user-attachments/assets/6fa3b406-d480-462c-83c3-79106b242374)
+
+![image](https://github.com/user-attachments/assets/1ce884c4-ce83-464c-a7c8-2fa0f3f6d57c)
+
 
 ## Extraction
 We used BeautifulSoup to scrape product details from Newegg.com across multiple pages (page 1 through 6). Each page contained between 30 to 40 gaming mice products, resulting in a total of 217 products.
