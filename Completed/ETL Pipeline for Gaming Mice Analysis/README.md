@@ -82,6 +82,6 @@ This provides a value-add for Andy to query the most popular brands, compare pri
 ## Further Improvements
 **Data Validation Pipelines**: Besides table constraints, we will also consider introducing error handling (i.e. to handle unexpected HTML changes) and data validation pipelines (i.e. to ensure data scraped adheres to if-else guidelines before loading) to flag problematic data.
 
-**Future Scalability**: The whole ETL process can be automated by using Apache Airflow or Dagster every time Newegg.com updates with a new page of products. This is important for scaling up the pipeline as the number of products increase, and reduces the need to manually execute the script.
+**Future Scalability**: The whole ETL process can be automated by using Apache Airflow or Dagster every time Newegg.com updates with a new page of products. This is important for scaling up the pipeline as the number of products increases, and reduces the need to manually execute the script.
 
 
