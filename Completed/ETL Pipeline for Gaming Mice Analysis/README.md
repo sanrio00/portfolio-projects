@@ -12,7 +12,11 @@ Andy is not familiar with the gaming mice category. As such, he requires a relia
 - Hand Orientation
 - Scrape datetime (to record time and to track any changes over time)
 
-**Tools used**: Python 3 (pandas, numpy, BeautifulSoup), SQLAlchemy
+**Tools used**: 
+- Pandas (to manipulate DataFrames)
+- Numpy (to assign null values for missing elements)
+- BeautifulSoup (for scraping HTML websites)
+- SQLAlchemy (to integrate Python with PostgreSQL)
 
 _Please note that while the business background is fictitious, the data is real._
 
@@ -20,7 +24,7 @@ _The data extracted is legal, and only used for learning purposes (namely, to de
 
 ## Methodology
 To gather the information of our competitor gaming mice, we decided to construct an ETL pipeline consisting of the following:
-- **Extract:** We scrape the product names and their respective features from Newegg.com (the e-commerce platform), and then appended the features(e.g. name, price, rating) onto a list before storing it on a Pandas DataFrame.
+- **Extract:** Each product’s features were extracted by parsing HTML using BeautifulSoup. For example, the rating and brand were located using classes, ensuring we gathered the correct attributes for each product.
 - **Transform:** 3 key steps were performed as part of data cleaning and to ensure that the DataFrame is ready for use:
     1. Replacing null values & renaming brands
     2. Checking for duplicates
@@ -48,7 +52,7 @@ The data is then structured into a list of dictionaries, with each product repre
 
 To further clean up the dataset, the following steps were performed:
 1. Similar brands are renamed to their original spelling
-2. 1 duplicate row was removed (216 products in the final DataFrame)
+2. 1 duplicate row was dropped (216 products in the final DataFrame)
 3. Index was reset and the columns were reordered
 4. DataFrame was set in snake_case format (to make the df easier to work with and maintain)
 
@@ -64,4 +68,10 @@ The table below shows the final DataFrame definition:
 | scrape_datetime | Timestamp of when the product is scraped | Datetime only |
 
 ## Loading
-## Conclusion and Further Improvements
+After the DataFrame is prepared, we loaded it into a PostgreSQL database with the help of SQLAlchemy, which has robust support for PostgreSQL. Table constraints such as non-negative prices are implemented to ensure that the data streamed in fulfills these check conditions, minimizing dirty data.
+
+## Conclusion
+We have demonstrated a simple ETL pipeline to enable Andy to gather competitor data of gaming mice into an accessible database. This provides a value-add for Andy to query the most popular brands, compare price ranges or analyze feature trends. This allows Andy to adjust his offerings accordingly to give himself an edge in the gaming mice market.
+
+## Further Improvements
+The whole ETL process can be automated by using Apache Airflow or Dagster every time Newegg.com updates with a new page of products. This is important for scaling up the pipeline as the number of products increase, and this reduces the need to manually execute the script.
