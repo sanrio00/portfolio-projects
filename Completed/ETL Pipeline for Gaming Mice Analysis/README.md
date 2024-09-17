@@ -13,10 +13,10 @@ Andy is not familiar with the gaming mice category. As such, he requires a relia
 - Scrape datetime (to record time and to track any changes over time)
 
 ** Python libraries used**: 
-- Pandas (to manipulate DataFrames)
-- Numpy (to assign null values for missing elements)
+- [Pandas](https://pandas.pydata.org/docs/user_guide/index.html) (to manipulate DataFrames)
+- [Numpy](https://numpy.org/doc/stable/user/absolute_beginners.html) (to assign null values for missing elements)
 - [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/) (for scraping HTML websites)
-- SQLAlchemy (to integrate Python with PostgreSQL)
+- [SQLAlchemy](https://www.sqlalchemy.org/) (to integrate Python with PostgreSQL)
 
 _Please note that while the business background is fictitious, the data is real._
 
