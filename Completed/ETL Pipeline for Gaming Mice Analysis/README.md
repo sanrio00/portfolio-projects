@@ -12,13 +12,15 @@ Andy is not familiar with the gaming mice category. As such, he requires a relia
 - Hand Orientation
 - Scrape datetime (to record time and to track any changes over time)
 
+**Tools used**: Python 3 (pandas, numpy, BeautifulSoup), SQLAlchemy
+
 _Please note that while the business background is fictitious, the data is real._
 
 _The data extracted is legal, and only used for learning purposes (namely, to demonstrate the 'Extract' step of an ETL pipeline using web scraping)._
 
 ## Methodology
 To gather the information of our competitor gaming mice, we decided to construct an ETL pipeline consisting of the following:
-- **Extract:** We scrape the product names and their respective features from Newegg.com, and then appended the features(e.g. name, price, rating) onto a list before storing it on a Pandas DataFrame.
+- **Extract:** We scrape the product names and their respective features from Newegg.com (the e-commerce platform), and then appended the features(e.g. name, price, rating) onto a list before storing it on a Pandas DataFrame.
 - **Transform:** 3 key steps were performed as part of data cleaning and to ensure that the DataFrame is ready for use:
     1. Replacing null values & renaming brands
     2. Checking for duplicates
@@ -30,10 +32,14 @@ More details for each step can be found in the links above.
 ## **ETL Process Map**
 As the e-commerce platform is updated with more entries, there will be future plans to scale up the pipeline. 
 
-The proposed ETL process map is shown in the illustration below:
-
+The proposed ETL process is shown in the illustration map below:
 
 ## Extraction
+The first part involved requesting the base url (page 1) and the other page urls (pages 2 to 6) and creating empty lists for each feature for storage later. 
+
+The second part involved extracting the name, price, rating, brand, DPI, model number, hand orientation of every product using BeautifulSoup across the pages. This required looking into the HTML syntax and finding the appropriate class within the syntax. Upon extracting the correct feature, we appended them into its respective list. 
+
+Each page consisted of around 30-40 gaming mice products, totalling to 217 products.
 
 ## Transformation
 Final table definition
