@@ -19,3 +19,11 @@ _The data extracted is legal, and only used for learning purposes (namely, to de
 - **Extract:**
 - **Transform:**
 - **Load:**
+- **ETL Process Map:**
+
+## Extraction
+
+## Transformation
+Final table definition
+## Loading
+## Conclusion and Further Improvements
