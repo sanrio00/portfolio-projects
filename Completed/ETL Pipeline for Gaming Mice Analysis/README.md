@@ -42,7 +42,6 @@ The proposed ETL process is shown in the illustration map below:
 
 ![image](https://github.com/user-attachments/assets/1ce884c4-ce83-464c-a7c8-2fa0f3f6d57c)
 
-
 ## Extraction
 We used BeautifulSoup to scrape product details from Newegg.com across multiple pages (page 1 through 6). Each page contained between 30 to 40 gaming mice products, resulting in a total of 217 products.
 
@@ -71,10 +70,14 @@ The table below shows the final DataFrame definition:
 | scrape_datetime | Timestamp of when the product is scraped | Datetime only |
 
 ## Loading
-After the DataFrame is prepared, we loaded it into a PostgreSQL database with the help of SQLAlchemy, which has robust support for PostgreSQL. Table constraints such as non-negative prices are implemented to ensure that the data streamed in fulfills these check conditions, minimizing dirty data.
+After the DataFrame is prepared, we loaded it into a PostgreSQL database with the help of SQLAlchemy, which has robust support for PostgreSQL. 
+
+Table constraints such as non-negative prices are implemented to ensure that the data streamed in fulfills these check conditions, minimizing dirty data.
 
 ## Conclusion
-We have demonstrated a simple ETL pipeline to enable Andy to gather competitor data of gaming mice into an accessible database. This provides a value-add for Andy to query the most popular brands, compare price ranges or analyze feature trends. This allows Andy to adjust his offerings accordingly to give himself an edge in the gaming mice market.
+We have demonstrated a simple ETL pipeline to enable Andy to gather competitor data of gaming mice into an accessible database. 
+
+This provides a value-add for Andy to query the most popular brands, compare price ranges or analyze feature trends. This allows Andy to adjust his offerings accordingly to give himself an edge in the gaming mice market.
 
 ## Further Improvements
 **Data Validation Pipelines**: Besides table constraints, we will also consider introducing error handling (i.e. to handle unexpected HTML changes) and data validation pipelines (i.e. to ensure data scraped adheres to if-else guidelines before loading) to flag problematic data.
