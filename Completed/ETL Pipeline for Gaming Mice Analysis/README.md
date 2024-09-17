@@ -29,7 +29,7 @@ To gather the information of our competitor gaming mice, we decided to construct
     1. Replacing null values & renaming brands
     2. Checking for duplicates
     3. Reset Index & Standardizing snake_case Format
-- [**Load:**](#loading) We inserted the completed DataFrame into a PostgreSQL database using SQLAlchemy, which has good support with PostgreSQL. PostgreSQL is chosen for its scalability and performance with larger datasets, and this is important when ETL pipelines become more complex.
+- [**Load:**](#loading) We inserted the completed DataFrame into a PostgreSQL database using SQLAlchemy, which has good support with PostgreSQL. PostgreSQL is chosen for its scalability and performance with larger datasets, and this is important when ETL pipelines grow increasingly complex.
 
 More details for each step can be found in the links above.
 
