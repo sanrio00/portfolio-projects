@@ -37,7 +37,7 @@ The proposed ETL process is shown in the illustration map below:
 ## Extraction
 The first part involved requesting the base url (page 1) and the other page urls (pages 2 to 6) and creating empty lists for each feature for storage later. 
 
-The second part involved extracting the name, price, rating, brand, DPI, model number, hand orientation of every product using BeautifulSoup across the pages. This required looking into the HTML syntax and finding the appropriate class within the syntax. Upon extracting the correct feature, we appended them into its respective list. 
+The second part involved extracting the name, price, rating, brand, DPI, model number, hand orientation of every product using BeautifulSoup across the pages. This required looking into the HTML syntax and finding the appropriate class within the syntax. Upon extracting the correct feature, we appended them into their respective lists. 
 
 Each page consisted of around 30-40 gaming mice products, totalling to 217 products.
 
@@ -48,10 +48,20 @@ The data is then structured into a list of dictionaries, with each product repre
 
 To further clean up the dataset, the following steps were performed:
 1. Similar brands are renamed to their original spelling
-2. 1 duplicate was removed (216 products in the final DataFrame)
+2. 1 duplicate row was removed (216 products in the final DataFrame)
 3. Index was reset and the columns were reordered
+4. DataFrame was set in snake_case format (to make the df easier to work with and maintain)
 
-The table below shows the final table definition:
+The table below shows the final DataFrame definition:
+| Header | Description | Note |
+| ------ | ------ | ------|
+| name | Name of product | Accept non-null values only |
+| price | Price of product (including cents) | Accept non-negative values only |
+| rating | Rating of product | Float values between 0 and 5 only |
+| dpi | Maximum mouse sensitivity possible for the product | NA |
+| model | Model number of product | NA |
+| hand_orientation | Whether the product is left, right-handed or suitable for both hands | NA |
+| scrape_datetime | Timestamp of when the product is scraped | Datetime only |
 
 ## Loading
 ## Conclusion and Further Improvements
