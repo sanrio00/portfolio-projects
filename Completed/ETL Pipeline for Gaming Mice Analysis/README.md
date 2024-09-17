@@ -24,7 +24,7 @@ _The data extracted is legal, and only used for learning purposes (namely, to de
 
 ## Methodology
 To gather the information of our competitor gaming mice, we decided to construct an ETL pipeline consisting of the following:
-- [**Extract:**](#extract) Each product’s features were extracted by parsing HTML using BeautifulSoup. For example, the rating and brand were located using classes, ensuring we gathered the correct attributes for each product.
+- [**Extract:**](#extraction) Each product’s features were extracted by parsing HTML using BeautifulSoup. For example, the rating and brand were located using classes, ensuring we gathered the correct attributes for each product.
 - **Transform:** 3 key steps were performed as part of data cleaning and to ensure that the DataFrame is ready for use:
     1. Replacing null values & renaming brands
     2. Checking for duplicates
@@ -42,7 +42,7 @@ The proposed ETL process is shown in the illustration map below:
 
 ![image](https://github.com/user-attachments/assets/1ce884c4-ce83-464c-a7c8-2fa0f3f6d57c)
 
-## [Extraction](#extract)
+## Extraction
 We used BeautifulSoup to scrape product details from Newegg.com across multiple pages (page 1 through 6). Each page contained between 30 to 40 gaming mice products, resulting in a total of 217 products.
 
 The extraction process involved identifying the relevant HTML elements for each feature and appending the extracted values to their corresponding lists for further processing.
