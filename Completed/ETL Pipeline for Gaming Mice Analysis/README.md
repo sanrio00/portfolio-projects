@@ -12,7 +12,7 @@ Andy is not familiar with the gaming mice category. As such, he requires a relia
 - Hand Orientation
 - Scrape datetime (to record time and to track any changes over time)
 
-**Tools used**: 
+** Python libraries used**: 
 - Pandas (to manipulate DataFrames)
 - Numpy (to assign null values for missing elements)
 - BeautifulSoup (for scraping HTML websites)
@@ -34,16 +34,15 @@ To gather the information of our competitor gaming mice, we decided to construct
 More details for each step can be found in the links above.
 
 ## **ETL Process Map**
-As the e-commerce platform is updated with more entries, there will be future plans to scale up the pipeline. 
+As the e-commerce platform is updated with more products, there will be future plans to scale up the pipeline. 
 
 The proposed ETL process is shown in the illustration map below:
+![image](https://github.com/user-attachments/assets/6fa3b406-d480-462c-83c3-79106b242374)
 
 ## Extraction
-The first part involved requesting the base url (page 1) and the other page urls (pages 2 to 6) and creating empty lists for each feature for storage later. 
+We used BeautifulSoup to scrape product details from Newegg.com across multiple pages (page 1 through 6). Each page contained between 30 to 40 gaming mice products, resulting in a total of 217 products.
 
-The second part involved extracting the name, price, rating, brand, DPI, model number, hand orientation of every product using BeautifulSoup across the pages. This required looking into the HTML syntax and finding the appropriate class within the syntax. Upon extracting the correct feature, we appended them into their respective lists. 
-
-Each page consisted of around 30-40 gaming mice products, totalling to 217 products.
+The extraction process involved identifying the relevant HTML elements for each feature and appending the extracted values to their corresponding lists for further processing.
 
 ## Transformation
 Upon printing the length of each feature list (name_list, price_list, rating_list, brand_list, dpi_list, model_number_list, hand_orientation_list), we found that rating, brand, DPI and hand orientation lists have missing elements and are shorter than the original length, which was 217.
@@ -74,4 +73,8 @@ After the DataFrame is prepared, we loaded it into a PostgreSQL database with th
 We have demonstrated a simple ETL pipeline to enable Andy to gather competitor data of gaming mice into an accessible database. This provides a value-add for Andy to query the most popular brands, compare price ranges or analyze feature trends. This allows Andy to adjust his offerings accordingly to give himself an edge in the gaming mice market.
 
 ## Further Improvements
-The whole ETL process can be automated by using Apache Airflow or Dagster every time Newegg.com updates with a new page of products. This is important for scaling up the pipeline as the number of products increase, and this reduces the need to manually execute the script.
+**Data Validation Pipelines**: Besides table constraints, we will also consider introducing error handling (i.e. to handle unexpected HTML changes) and data validation pipelines (i.e. to ensure data scraped adheres to if-else guidelines before loading) to flag problematic data.
+
+**Future Scalability**: The whole ETL process can be automated by using Apache Airflow or Dagster every time Newegg.com updates with a new page of products. This is important for scaling up the pipeline as the number of products increase, and reduces the need to manually execute the script.
+
+
