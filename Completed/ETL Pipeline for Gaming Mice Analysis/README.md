@@ -25,18 +25,18 @@ _The data extracted is legal, and only used for learning purposes (namely, to de
 ## Methodology
 To gather the information of our competitor gaming mice, we decided to construct an ETL pipeline consisting of the following:
 - [**Extract:**](#extraction) Each product’s features were extracted by parsing HTML using BeautifulSoup. For example, the rating and brand were located using classes, ensuring we gathered the correct attributes for each product.
-- **Transform:** 3 key steps were performed as part of data cleaning and to ensure that the DataFrame is ready for use:
+- [**Transform:**](#transformation) 3 key steps were performed as part of data cleaning and to ensure that the DataFrame is ready for use:
     1. Replacing null values & renaming brands
     2. Checking for duplicates
     3. Reset Index & Standardizing snake_case Format
-- **Load:** We inserted the completed DataFrame into a PostgreSQL database using SQLAlchemy, which has good support with PostgreSQL. PostgreSQL is chosen for its scalability and performance with larger datasets, and this is important when ETL pipelines become more complex.
+- [**Load:**](#loading) We inserted the completed DataFrame into a PostgreSQL database using SQLAlchemy, which has good support with PostgreSQL. PostgreSQL is chosen for its scalability and performance with larger datasets, and this is important when ETL pipelines become more complex.
 
 More details for each step can be found in the links above.
 
 ## **ETL Process Map**
 As the e-commerce platform is updated with more products, there will be future plans to scale up the pipeline.
 
-Details of future improvements are discussed here.
+Details of future improvements are discussed [here](#further-improvements).
 
 The proposed ETL process is shown in the illustration map below:
 
