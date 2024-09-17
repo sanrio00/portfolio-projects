@@ -12,7 +12,7 @@ Andy is not familiar with the gaming mice category. As such, he requires a relia
 - Hand Orientation
 - Scrape datetime (to record time and to track any changes over time)
 
-** Python libraries used**: 
+**Python libraries used**: 
 - [Pandas](https://pandas.pydata.org/docs/user_guide/index.html) (to manipulate DataFrames)
 - [Numpy](https://numpy.org/doc/stable/user/absolute_beginners.html) (to assign null values for missing elements)
 - [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/) (for scraping HTML websites)
