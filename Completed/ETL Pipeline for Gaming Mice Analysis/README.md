@@ -1,6 +1,6 @@
 # ETL Pipeline for Gaming Mice Analysis
 ## Business Background and Overview
-Andy plans to start a business selling gaming mice on an e-commerce platform that would give him good margins. Before developing his product for the market, he needs to conduct market research to understand the brands of gaming mice in the market, as well as the features that are popular among his gamer audience.
+Andy plans to start a business selling gaming mice on an e-commerce platform that would give him good margins. Before developing his product, he needs to conduct research to understand the brands of gaming mice in the market, as well as the features that are popular among his gamer audience.
 
 Andy is not familiar with the gaming mice category. As such, he requires a reliable way to view competitor data without having to manually search the platform for new competitors all the time. He decides to construct an ETL pipeline that would gather the following information to a database:
 - Product Name
