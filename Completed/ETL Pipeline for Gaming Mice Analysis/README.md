@@ -53,7 +53,7 @@ Upon printing the length of each feature list (name_list, price_list, rating_lis
 The data is then structured into a list of dictionaries, with each product representing one dictionary. Missing values were handled by assigning NaN where applicable, and were stored in a Pandas DataFrame.
 
 To further clean up the dataset, the following steps were performed:
-1. Similar brands are renamed to their original spelling
+1. Similar brands are renamed to their original spelling to prevent multiple instances of the same brand
 2. 1 duplicate row was dropped (216 products in the final DataFrame)
 3. Index was reset and the columns were reordered
 4. DataFrame was set in snake_case format (to make the df easier to work with and maintain)
