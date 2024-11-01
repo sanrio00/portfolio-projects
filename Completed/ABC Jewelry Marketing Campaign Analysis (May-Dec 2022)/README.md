@@ -40,7 +40,7 @@ Out of 156 campaigns, the following campaign IDs performed the best in these met
 
 ### Average CTR over time:
 - Notably, there is a sharp peak in Sept 2022 to nearly 8% average CTR at its highest before declining to around 2% in the other months.
-- “Include more data to check for seasonality across years. If September consistently shows higher CTR, allocate more budget to that month.
+- Include more data to check for seasonality across years. If September consistently shows higher CTR, allocate more budget to that month.
 - Investigate creative, media cost, channel allocation in Sept to replicate performance in other months
 
 ### Assessment of Average CTR Performance:
