@@ -28,11 +28,15 @@ Out of 156 campaigns, the following campaign IDs performed the best in these met
 - Average CTR: ID 2980 at 24.7%
 
 ### Impact of Channel Type on Clicks and Impressions: 
+![Average Impressions and Clicks](https://github.com/user-attachments/assets/4f919ca2-5d62-48b3-b5ed-c9e2b07ab3bf)
 - Display and Video channels have the highest average number of clicks. However, reallocating more budget to Mobile could be advantageous due to its superior click-to-impression efficiency. This would ensure sustained click performance even when the media budget runs lower.
 - Search Channels have the highest average impressions, but are least effective in driving clicks. Consider optimizing CTA strategies and refining communication to make ads more compelling for engagement.
 
 ### Impact of Search Tags on Clicks, based on Channel Type:
+![Average Clicks by Search Tags](https://github.com/user-attachments/assets/58add491-c003-4366-b60b-4d7637429711)
 - On average, #The Power of X attracted the highest number of clicks across campaigns
+
+![Average Clicks by Search Tag by Channel Type](https://github.com/user-attachments/assets/e9214acc-81d5-4a87-9ef1-8a404ddafe05)
 - When split by channel type, most channels hover around 40-50 average clicks per search tag, suggesting no significant differences in channel effectiveness.
 - Video is most effective on #Embrace Your Individuality with X. To investigate the impact of Video further, find out whether users have more clicks with short or long-form content on Video.
 - Display and Social drive the most clicks for #The Power of X. Since Display and Social are channels with higher reach, enhance creative quality to resonate more with the existing audience rather than specifically reach new users.
