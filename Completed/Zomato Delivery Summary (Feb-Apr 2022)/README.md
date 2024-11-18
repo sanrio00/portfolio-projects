@@ -19,7 +19,7 @@ SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob
 4. No. of Prior Deliveries in Same Trip: Range from 0-3
 5. Vehicle Conditions: Range from 0-3 (not known what each score means)
 
-## [Tableau Dashboard](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## [Tableau Dashboard (click for Public link)](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ![For GitHub](https://github.com/user-attachments/assets/28c4df82-514b-4183-a01a-b122ee54d8d5)
 
 ## Summary of Insights
