@@ -20,7 +20,13 @@ SQL queries ([data cleaning](https://github.com/sanrio00/portfolio-projects/blob
 5. Vehicle Conditions: Range from 0-3 (not known what each score means)
 
 ## [Tableau Dashboard (click for Public link)](https://public.tableau.com/views/ZomatoDeliverySummaryFeb-Apr2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-![For GitHub](https://github.com/user-attachments/assets/28c4df82-514b-4183-a01a-b122ee54d8d5)
+![For GitHub](https://github.com/user-attachments/assets/07f2cbd6-f349-4437-9fc1-26072b1dd154)
+### Initial Observations
+- There are 40,786 completed deliveries from Feb-Apr 2022. 71% of these deliveries are done on March.
+- Metropolitan: 76.9%, Urban: 22.7%, Semi-Urban: 0.4% 
+- Average delivery time: 26.31 mins, Average Delivery Rating: 4.63 out of 5
+- Start hour affects average delivery duration more than average rating.
+- Both delivery duration and rating fluctuates heavily with order date, making it a less reliable indicator for performance.
 
 ## Summary of Insights
 ### Delivery Duration
