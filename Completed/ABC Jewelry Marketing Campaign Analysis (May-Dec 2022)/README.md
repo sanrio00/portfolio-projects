@@ -53,7 +53,7 @@ Out of 156 campaigns, the following campaign IDs performed the best in these met
 - An authoritative source of average CTR in the jewelry space is not available. Instead, I use the [overall industry CTR benchmark](https://www.webfx.com/blog/marketing/whats-good-click-rate-ctr-industry/#:~:text=While%20a%20good%20CTR%20depends,the%20average%20CTR%20is%200.46%25) to categorize CTR into two groups: higher and lower than the benchmark.
 - 76.5% of CTRs are below the overall industry average of 1.9%, highlitng potential for optimization.
 
-![Distribution of Higher   Lower CTR](https://github.com/user-attachments/assets/b31d3f56-1373-4cc1-9f98-c5b42c143824)
+![High vs Low Clicks on Other Factors](https://github.com/user-attachments/assets/8d2a9fec-5a8b-47cd-a9e6-5df0f8ec9a4b)
 - Looking into the relationship of other factors like channel type or keywords on CTR, no clear trends were identified.
 - Alternatively, reducing average CPC and CPM could also improve CTR in the long term.
 
