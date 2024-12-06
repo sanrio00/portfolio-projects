@@ -1,1 +1,15 @@
+Profit and Loss (P&L) Statement Automation
+Create an ETL pipeline that consolidates revenue and expense data to generate a P&L statement.
 
+Understanding of revenue, cost of goods sold (COGS), gross profit, operating expenses, and net profit.
+
+Data Extraction: https://catalog.data.gov/dataset/
+revenue and expense data to set up P&L in the gas/banking industry
+
+Data Transformation: pandas (Python), Power Query (Excel).
+
+Cloud storage: AWS, Azure, or Google BigQuery.
+Data Analysis:
+
+Python (pandas, NumPy, Matplotlib, Seaborn).
+R (ggplot2, dplyr).
