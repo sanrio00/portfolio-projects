@@ -13,3 +13,8 @@ Besides API-retrieved data which contains real income statements, we have also g
 **Subjects Covered**: API calling, simulation, data wrangling, transformation
 
 **Documents**: [**Merged DataFrame**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv), [**API Calling & Data Preprocessing Notebook**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/api_calling_data_preprocessing.ipynb), [**Exploratory Data Analysis (EDA)**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/eda.ipynb)
+
+## Financial Metrics Used
+Revenue: Revenue, Revenue Growth (%)
+Profit: Operating Income, Gross Profit, Gross Profit Ratio, (%), Net Income, Net Income Ratio (%), EBITDA
+Expense: Operating Expenses, Cost of Revenue, Interest Expense, Depreciation & Amortization (D&A)
