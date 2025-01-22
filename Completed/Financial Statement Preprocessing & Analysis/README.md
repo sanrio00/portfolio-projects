@@ -9,5 +9,7 @@ The data insights are also presented on an Excel dashboard to give a summary on 
 Besides API-retrieved data which contains real income statements, we have also generated synthetic datasets containing simulated financial metrics and stocks to complement the data and be able to demonstrate various data wrangling steps.
 
 **Tools**: Python (requests, pandas, numpy, matplotlib, seaborn), Excel (Power Query, Power Pivot, Pivot Table & Charts)
+
 **Subjects Covered**: API calling, simulation, data wrangling, transformation
+
 **Documents**: [**Merged DataFrame**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv), [**Data Preprocessing Notebook**](
