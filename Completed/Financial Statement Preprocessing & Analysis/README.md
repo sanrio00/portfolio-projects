@@ -6,4 +6,8 @@ These income statements consolidate revenue, profit and expense data (e.g. Gross
 
 The data insights are also presented on an Excel dashboard to give a summary on the general performance of the companies (split into Revenue, Profit, Expense), alongside recommendations these companies should consider in the future to improve profitability and reduce expenses.
 
-Besides API-retrieved data which contains real income statements, we have also generated synthetic datasets containing simulated financial metrics and stocks to complement the data and be able to demonstrate various data preprocessing steps.
+Besides API-retrieved data which contains real income statements, we have also generated synthetic datasets containing simulated financial metrics and stocks to complement the data and be able to demonstrate various data wrangling steps.
+
+**Tools**: Python (requests, pandas, numpy, matplotlib, seaborn), Excel (Power Query, Power Pivot, Pivot Table & Charts)
+**Subjects Covered**: API calling, simulation, data wrangling, transformation
+**Documents**: [**Merged DataFrame**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv), [**Data Preprocessing Notebook**](
