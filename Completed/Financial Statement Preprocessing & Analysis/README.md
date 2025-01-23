@@ -59,7 +59,7 @@ To ensure that the datasets are ready for merging and analysis, the below steps 
     - If EBITDA = Operating Income - D&A, the actual value might not follow this formula and this could be due to adjustments from real-world reporting or human error
     - We then dropped rows that do not match the actual calculation
  
-After all of the 4 datasets have been cleaned, they are merged into a single DataFrame. Additional data cleaning such as dropping duplicates and removing rows with impossible negative values are also performed to ensure data integrity.
+After all of the 4 datasets have been cleaned, they are merged into a single DataFrame. Additional data cleaning such as dropping duplicates and removing rows with impossible negative values were also performed to ensure data integrity.
 
 ## Step 3: EDA
 to be filled
