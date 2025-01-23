@@ -26,7 +26,7 @@ We obtained the Top 200 stocks by market capitalization (named as price in the c
 
 The following steps were then performed:
 
-1. The real stock data was expanded with synthetic data to increase the size of the overall data and 4 datasets were generated using this method (see Extract & Simulate step). 
+1. The real stock data was expanded with synthetic data to increase the size of the overall data and 4 datasets were generated using this method (see Simulate step). 
 
 2. Data preprocessing (see Data Preprocessing step) was then conducted to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
 
@@ -36,7 +36,7 @@ The following steps were then performed:
 
 The remaining tabs cover a greater deep dive onto the related Revenue, Profit and Expense metrics, explain the trends across time, and include recommendations for how companies could optimize their financial performance further.
 
-## 1. Extract & Simulate
+## 1. Simulate
 4 datasets: Base, Partial, Historical, Sparse were generated to simulate stocks and financial metrics across year 2000 to 2024.
 
 The Base dataset was expanded from the 240 rows of real stock data using synthetic stocks of random length and unique stock-year combinations, totalling to 100,240 rows. In other words, the Base dataset consists of income data of the Top 200 market cap stocks with synthetic data making up the rest.
@@ -46,7 +46,20 @@ The other financial metrics, such as cost of revenue and gross profit, are simul
 The other 3 datasets are derivatives of the Base dataset and are filled with errors on purpose to effectively simulate needing to consolidate different data sources, much like in real life.
 
 ## 2. Data Preprocessing
-to be filled
+To ensure that the datasets are ready for merging and analysis, the below steps were performed:
+- Removed duplicate stock-year pairs (e.g. Stock JKHS has 2 rows with Year 2005)
+- Checked for null columns
+- Checked stock names using regex to make sure they are named correctly (e.g. no strange prefix or suffix at the end)
+- Filter out impossible years (e.g. if any row goes below year 2000 or goes above year 2024, filter out)
+- Filter out impossible negative values (i.e. **Revenue, Operating Expenses, Cost of Revenue, Interest Expense, Depreciation & Amortization** cannot have negative values)
+- Managed missing values in all columns by:
+    - Revenue Growth: Fill in NaN based on revenue in the previous year
+    - For all other metrics: Fill in NaN only when the respective metrics are available. For example, if Operating Expenses has NaN, only fill it up by using Gross Profit - Operating Income and if both metrics are available.
+- Checking Actual vs Expected value of columns by creating a flag column
+    - If EBITDA = Operating Income - D&A, the actual value might not follow this formula and this could be due to adjustments from real-world reporting or human error
+    - We then dropped rows that do not match the actual calculation
+ 
+After all of the 4 datasets have been cleaned, they are merged into a single DataFrame. Additional data cleaning such as dropping duplicates and removing rows with impossible negative values are also performed to ensure data integrity.
 
 ## Step 3: EDA
 to be filled
