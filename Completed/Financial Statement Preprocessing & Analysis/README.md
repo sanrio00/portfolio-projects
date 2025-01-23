@@ -26,13 +26,13 @@ We obtained the Top 200 stocks by market capitalization (named as price in the c
 
 The following steps were then performed:
 
-First, the real stock data was expanded with synthetic data to increase the size of the overall data and 4 datasets were generated using this method (see Extract & Simulate step). 
+1. The real stock data was expanded with synthetic data to increase the size of the overall data and 4 datasets were generated using this method (see Extract & Simulate step). 
 
-Second, data preprocessing (see Data Preprocessing step) was then conducted to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
+2. Data preprocessing (see Data Preprocessing step) was then conducted to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
 
-Third, we have conducted EDA (see EDA step) to observe potential patterns in the dataset on-demand, identifying potential outliers and confirming various hypotheses before visualizing the important data in the Analysis step.
+3. Conducted EDA (see EDA step) to observe potential patterns in the dataset on-demand, identifying potential outliers and confirming various hypotheses before visualizing the important data in the Analysis step.
 
-Lastly, in the Analysis step (see Analysis step), we have visualized the data on an interactive Excel dashboard, which details the P&L summary and the respective Revenue, Profit and Expense tabs. The P&L summary shows a yearly sum breakdown of each financial metric covering all real and synthetic companies in the dataset.
+4. Visualized the data on an interactive Excel dashboard, which details the P&L summary and the respective Revenue, Profit and Expense tabs. The P&L summary shows a yearly sum breakdown of each financial metric covering all real and synthetic companies in the dataset.
 
 The remaining tabs cover a greater deep dive onto the related Revenue, Profit and Expense metrics, explain the trends across time, and include recommendations for how companies could optimize their financial performance further.
 
