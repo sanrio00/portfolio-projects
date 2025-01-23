@@ -24,8 +24,6 @@ Synthetic datasets containing simulated financial metrics and stocks were also g
 ## Methodology
 First, we obtain the Top 200 stocks by market capitalization (named as price in the code) from US-listed exchanges using the [Financial Modelling Prep API](https://financialmodelingprep.com/api/v3/stock/list?apikey=NSD2m35XyjrwOoYdtKbq1JPOHlABl8CW). When making investment decisions, it is important to select relevant companies that reflect high growth and profitability potential in the market. Tracking companies by market cap (e.g. NFLX, TSLA, MSI) helps with this. 
 
-We have also included try-except blocks to ensure that any errors during requests are caught and reported. The API responses are stored in a dictionary that contains relevant metrics like Year, Revenue and Net Income for each stock.
-
 Second, the real stock data is expanded with synthetic data to add more rows and increase it to a larger dataset. 4 datasets: Base, Partial, Historical & Sparse were generated using a custom function. Data preprocessing (see Data Preprocessing step) was done to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
 
 Third, we have conducted EDA (see EDA step) to observe potential patterns in the dataset on-demand before deep diving into actual analysis. This allows to prepare various hypotheses before laying it out in the Analysis step.
