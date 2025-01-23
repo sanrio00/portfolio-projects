@@ -6,7 +6,7 @@ These income statements consolidate revenue, profit and expense data (e.g. Gross
 
 The data insights are also presented on an Excel dashboard to give a summary on the general performance of the companies (split into Revenue, Profit, Expense). These insights include recommendations on what these companies should consider in the future to improve profitability and reduce expenses.
 
-Besides API-retrieved data which contains real income statements, we have also generated synthetic datasets containing simulated financial metrics and stocks to complement the data and be able to demonstrate various data wrangling steps.
+Synthetic datasets containing simulated financial metrics and stocks were also generated to complement the API-retrieved data from real stocks and be able to demonstrate various data wrangling steps.
 
 **Tools**: Python (requests, pandas, numpy, matplotlib, seaborn), Excel (Power Query, Power Pivot, Pivot Table & Charts)
 
@@ -21,15 +21,20 @@ Besides API-retrieved data which contains real income statements, we have also g
 
 **Expense**: Operating Expenses, Cost of Revenue, Interest Expense, Depreciation & Amortization (D&A)
 
-## Methodology (rephrase)
-To start off, we obtain the Top 200 stocks by market capitalization (named as price in the code) from US-listed exchanges.
-We also include a try-except block to ensure that any errors during requests are caught and reported. (summarize and see Extraction step) The API response is stored in a list of dictionary to extract relevant metrics like Year, Revenue and Net Income. Hence, each record corresponds to a specific stock and year, with detailed financial metrics.
+## Methodology
+First, we obtain the Top 200 stocks by market capitalization (named as price in the code) from US-listed exchanges using the [Financial Modelling Prep API](https://financialmodelingprep.com/api/v3/stock/list?apikey=NSD2m35XyjrwOoYdtKbq1JPOHlABl8CW). When making investment decisions, it is important to select relevant companies that reflect high growth and profitability potential in the market. Tracking companies by market cap (e.g. NFLX, TSLA, MSI) helps with this. 
 
-preprocessing (see Data Preprocessing step), check for duplicates, missing data, check calculations for all columns and merge all 4 datasets into a single [merged DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
+We have also included try-except blocks to ensure that any errors during requests are caught and reported. The API responses are stored in a dictionary that contains relevant metrics like Year, Revenue and Net Income for each stock.
 
-EDA is then performed to see potential patterns in the dataset on-demand before deep diving into actual analysis. This allows to prepare various hypotheses before laying it out in the Analysis step.
+Second, the real stock data is expanded with synthetic data to add more rows and increase it to a larger dataset. 4 datasets: Base, Partial, Historical & Sparse were generated using a custom function. Data preprocessing (see Data Preprocessing step) was done to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
 
-## Step 1: Extract
+Third, we have conducted EDA (see EDA step) to observe potential patterns in the dataset on-demand before deep diving into actual analysis. This allows to prepare various hypotheses before laying it out in the Analysis step.
+
+Lastly, in the Analysis step (see Analysis step), we have visualized the data on an Excel dashboard, which details the P&L summary and the respective Revenue, Profit and Expense tabs. The P&L summary shows a yearly sum breakdown of each financial metric covering all real and synthetic companies in the dataset.
+
+The remaining tabs cover a greater deep dive onto the related Revenue, Profit and Expense metrics, explain the trends across time, and include recommendations for how companies could improve their financial standing.
+
+## Extract
 There are 4 datasets: Base, Partial, Historical, Sparse. With the Base dataset, we create a synthetic dataset of 100,000 rows containing simulated financial metrics for various stocks across year 2000 to 2024. Using generate_random_tickers, we create unique stocks of random lengths and create stock-year combinations. We then simulate the other financial metrics proportionally based on the revenue. For example, cost of revenue is 40-70% of revenue. We then verified the data integrity by checking no duplicate stock-year combination exists (summarize this part, then add In other words, the Base dataset consists of income data of the Top 200 market cap stocks with synthetic data making up the rest). The other 3 datasets are derivatives of the Base dataset and are filled with errors on purpose to simulate data cleaning & merging in real life.
 
 ## Step 2: Data Preprocessing
