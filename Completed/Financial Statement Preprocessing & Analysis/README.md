@@ -24,7 +24,7 @@ Synthetic datasets containing simulated financial metrics and stocks were also g
 ## Methodology
 First, we obtain the Top 200 stocks by market capitalization (named as price in the code) from US-listed exchanges using the [Financial Modelling Prep API](https://financialmodelingprep.com/api/v3/stock/list?apikey=NSD2m35XyjrwOoYdtKbq1JPOHlABl8CW). When making investment decisions, it is important to select relevant companies that reflect high growth and profitability potential in the market. Tracking companies by market cap (e.g. NFLX, TSLA, MSI) helps with this. 
 
-Second, the real stock data is expanded with synthetic data to add more rows and increase it to a larger dataset. 4 datasets: Base, Partial, Historical & Sparse were generated using a custom function. Data preprocessing (see Data Preprocessing step) was done to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
+Second, the real stock data is expanded with synthetic data to increase the size of the overall data and 4 datasets were generated using this method. Data preprocessing (see Data Preprocessing step) was then conducted to check for duplicates, missing data, as well as calculations for all columns in each dataset before all 4 datasets were merged into a [single DataFrame](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv).
 
 Third, we have conducted EDA (see EDA step) to observe potential patterns in the dataset on-demand, identifying potential outliers and confirming various hypotheses before visualizing the important data in the Analysis step.
 
@@ -33,7 +33,13 @@ Lastly, in the Analysis step (see Analysis step), we have visualized the data on
 The remaining tabs cover a greater deep dive onto the related Revenue, Profit and Expense metrics, explain the trends across time, and include recommendations for how companies could optimize their financial performance further.
 
 ## Extract
-There are 4 datasets: Base, Partial, Historical, Sparse. With the Base dataset, we create a synthetic dataset of 100,000 rows containing simulated financial metrics for various stocks across year 2000 to 2024. Using generate_random_tickers, we create unique stocks of random lengths and create stock-year combinations. We then simulate the other financial metrics proportionally based on the revenue. For example, cost of revenue is 40-70% of revenue. We then verified the data integrity by checking no duplicate stock-year combination exists (summarize this part, then add In other words, the Base dataset consists of income data of the Top 200 market cap stocks with synthetic data making up the rest). The other 3 datasets are derivatives of the Base dataset and are filled with errors on purpose to simulate data cleaning & merging in real life.
+4 datasets: Base, Partial, Historical, Sparse were generated to simulate stocks and financial metrics across year 2000 to 2024.
+
+The Base dataset was expanded from the 240 rows of real stock data using synthetic stocks of random length and unique stock-year combinations, totalling to 100,240 rows. In other words, the Base dataset consists of income data of the Top 200 market cap stocks with synthetic data making up the rest.
+
+The other financial metrics, such as cost of revenue and gross profit, are simulated proportionally based on the revenue. For example, cost of revenue is 40-70% of revenue. We then verified the data integrity by checking no duplicate stock-year combination exists. 
+
+The other 3 datasets are derivatives of the Base dataset and are filled with errors on purpose to effectively simulate needing to consolidate different data sources, much like in real life.
 
 ## Step 2: Data Preprocessing
 to be filled
