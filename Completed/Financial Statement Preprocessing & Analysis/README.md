@@ -109,6 +109,30 @@ Gross Profit Ratio is consistently the highest, above Operating Expense Ratio an
 
 Operating Income Ratio also mirrors Net Income Ratio. It is expected that Net Income Ratio is the lowest because it accounts for additional expenses which reduce Net Income.
 
+## Analyzing Expense over Time
+
+![ExpenseDistributionOverYears](https://github.com/user-attachments/assets/49396ef2-ff86-4610-bb47-d0f4b4daa7e2)
+
+Cost of Revenue is consistently the largest expense, higher than Operating Expenses and Depreciation & Amortization (D&A), This highlights the significance of production & procurement costs (Cost of Revenue) above admin, marketing and general expenses needed to sustain the general operations across companies (Operating Expenses).
+
+The relatively low D&A also indicates minimal investment in assets prone to depreciation. 
+
+Since 2019, noticeable fluctuations in the proportions of Cost of Revenue and Operating Expenses have emerged, while D&A has shown a slight increase.
+
+## Gross Profit vs Cost of Revenue as a Proportion of Revenue
+
+Since Cost of Revenue + Gross Profit = Revenue, it is useful to see whether the gross profit margin is healthy versus the cost of revenue. 
+
+We divide Cost of Revenue & Gross Profit by a single average Revenue rather than per-revenue, which helps to reduce the year-on-year variability and observe the overall trend over time more consistently.
+
+![image](https://github.com/user-attachments/assets/f75405d2-b484-4072-ad27-2040a487207c)
+
+Overall, the Average Gross Profit manages to stay consistently above the Average Cost of Revenue, indicating high Gross Profit margins.
+
+Average Gross Profit and Average Cost of Revenue appear to move together and remain largely stable until 2019, where large significant fluctuations are observed and both metrics share an inverse relationship.
+
+Companies could consider adopting cost maangement strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
+
 ## Step 4: Excel Dashboard & Analysis
 to be filled
 
