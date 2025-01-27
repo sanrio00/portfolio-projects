@@ -49,7 +49,7 @@ The other 3 datasets are derivatives of the Base dataset and are filled with err
 To ensure that the datasets are ready for merging and analysis, the below steps were performed:
 - Removed duplicate stock-year pairs (e.g. Stock JKHS has 2 rows with Year 2005)
 - Checked for null columns
-- Checked stock names using regex to make sure they are named correctly (e.g. no strange prefix or suffix at the end)
+- Checked stock names using regex to make sure they are named correctly (e.g. no strange prefix at the front or suffix at the end)
 - Filter out impossible years (e.g. if any row goes below year 2000 or goes above year 2024, filter out)
 - Filter out impossible negative values (i.e. **Revenue, Operating Expenses, Cost of Revenue, Interest Expense, Depreciation & Amortization** cannot have negative values)
 - Managed missing values in all columns by:
@@ -61,8 +61,53 @@ To ensure that the datasets are ready for merging and analysis, the below steps 
  
 After all of the 4 datasets have been cleaned, they are merged into a single DataFrame. Additional data cleaning such as dropping duplicates and removing rows with impossible negative values were also performed to ensure data integrity.
 
-## Step 3: EDA
-to be filled
+## Step 3: Exploratory Data Analysis
+### Outliers & Frequency Distribution
+Upon analyzing the dataset using boxplots and histogram, **Net Income Ratio and Gross Profit Ratio** predominantly fall within the interquartile range (i.e. 25%-75% of the maximum value). This is within expectations because both ratios are a proportion of revenue, which naturally restricts the range.
+
+**Operating Income, Net Income, Operating Expenses and EBITDA** show small percentages of outliers and are likely natural variations of financial metrics.
+
+While 12% of **Revenue Growth** data are identified as outliers (above 1.5 times of interquartile range), Revenue Growth rates tend to have high variability as a result of year-on-year expansions of the company. These outliers do not reflect an issue with the data and are thus kept.
+
+The remaining metrics like Revenue and Cost of Revenue do not show outliers.
+
+### Total Revenue and Revenue Growth Over Time
+When tracking total revenue over time, total revenue remained almost unchanged from 2000-2018, which indicates minimal improvement in performance.
+
+Two signficant spikes were observed from 2018-2019 and 2021-2022. This could be attributed to market recovery as businesses have expanded with more revenue.
+
+However, 2023-2024 saw a sharp decline, bringing total revenue to just slightly above 2019 levels.
+
+![Total Revenue and Revenue Growth Over Time](https://github.com/user-attachments/assets/be0d91c8-76f7-4195-ab57-118843dabcd8)
+
+### Overall Top 5 vs Current Top 5 Companies by Revenue (2020-2024)
+We also aim to analyze the performance of the Top 5 companies with the highest revenue from 2020 to 2024 to evaluate their potential for future growth.
+
+If any company from the Current Top 5 overlap with the Overall Top 5 in recent years, it indicates their strong potential for sustained growth in the coming years.
+
+![CurrentTop5_OverallTop5](https://github.com/user-attachments/assets/a54094bb-8d67-4db5-a6ea-189b76402308)
+
+**MCK, COST, and MSFT** are consistently among the Current and Overall Top 5 companies by revenue, demonstrating steady annual growth from 2020 to 2024. This reflects resilient and sustainable performance in these 3 companies despite an overall lower revenue in the dataset in 2024.
+
+Meanwhile, **UNH and BRK-B**, part of the Overall Top 5, reached their highest revenue in 2023 but dropped out of the Current Top 5 in 2024, indicating a possible decline in performance or competitive standing.
+
+### Relationship between Net Income Ratio vs Gross Profit Ratio
+
+![GrossProfitRatio_NetIncomeRatio](https://github.com/user-attachments/assets/130c2bb7-b850-4419-a6e4-33ba4417309b)
+
+Generally, Gross Profit Ratio and Net Income Ratio display a weak positive correlation. As Gross Profit Ratio increases, Net Income Ratio increases minimally.
+
+Majority of the data points cluster in the middle, which further supports this weak correlation.
+
+Companies should aim to improve their cost efficiency to lower their Cost of Revenue, which then improves their Gross Profit Ratio and ultimately Net Income Ratio.
+
+### Analyzing Profit over Time
+
+![ProfitPerformance](https://github.com/user-attachments/assets/554d0d01-989e-4ecc-8cd1-ef2f1367a51a)
+
+Gross Profit Ratio is consistently the highest, above Operating Expense Ratio and Net Income Ratio. This suggests stability in both profitability and expenditure relative to revenue across the years.
+
+Operating Income Ratio also mirrors Net Income Ratio. It is expected that Net Income Ratio is the lowest because it accounts for additional expenses which reduce Net Income.
 
 ## Step 4: Excel Dashboard & Analysis
 to be filled
