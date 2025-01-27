@@ -109,7 +109,7 @@ Gross Profit Ratio is consistently the highest, above Operating Expense Ratio an
 
 Operating Income Ratio also mirrors Net Income Ratio. It is expected that Net Income Ratio is the lowest because it accounts for additional expenses which reduce Net Income.
 
-## Analyzing Expense over Time
+### Analyzing Expense over Time
 
 ![ExpenseDistributionOverYears](https://github.com/user-attachments/assets/49396ef2-ff86-4610-bb47-d0f4b4daa7e2)
 
@@ -119,7 +119,7 @@ The relatively low D&A also indicates minimal investment in assets prone to depr
 
 Since 2019, noticeable fluctuations in the proportions of Cost of Revenue and Operating Expenses have emerged, while D&A has shown a slight increase.
 
-## Gross Profit vs Cost of Revenue as a Proportion of Revenue
+### Gross Profit vs Cost of Revenue as a Proportion of Revenue
 
 Since Cost of Revenue + Gross Profit = Revenue, it is useful to see whether the gross profit margin is healthy versus the cost of revenue. 
 
