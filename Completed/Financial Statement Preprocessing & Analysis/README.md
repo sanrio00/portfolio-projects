@@ -131,7 +131,7 @@ We divide Cost of Revenue & Gross Profit by a single average Revenue rather than
 
 Overall, the Average Gross Profit manages to stay consistently above the Average Cost of Revenue, indicating high Gross Profit margins.
 
-Average Gross Profit and Average Cost of Revenue appear to move together and remain largely stable until 2019, where large significant fluctuations are observed and both metrics share an inverse relationship.
+Average Gross Profit and Average Cost of Revenue appear to move together and remain largely stable until 2019, where slight fluctuations are observed and both metrics share an inverse relationship.
 
 Companies could consider adopting cost maangement strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
 
