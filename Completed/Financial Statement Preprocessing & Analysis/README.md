@@ -136,9 +136,47 @@ Average Gross Profit and Average Cost of Revenue appear to move together and rem
 Companies could consider adopting cost maangement strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
 
 ## Step 4: Excel Dashboard & Analysis
-to be filled
+### Profit & Loss Statement
+![image](https://github.com/user-attachments/assets/e90fac46-ed14-4b31-a930-24fc9d9b591d)
+![image](https://github.com/user-attachments/assets/f6244d3c-643f-4784-9ea9-64ea72faf688)
 
-https://1drv.ms/x/c/21f22e0d41f3e320/EdA4KLcROkdNtyCEL4mimhQBn5mgBkvwKamyAL9S2VWezA?e=PjQH5N
+1. On average, the US companies mostly remained stable, with a modest growth in revenue of 2%.
+2. Two signficant spikes were observed from 2018-2019 and 2021-2022. This could be attributed to market recovery as businesses have expanded with more revenue.
+3. However, 2023-2024 saw a sharp decline, bringing total revenue to just slightly above 2019 levels.
+4. The period of 2022-2023 was likely marked by a strong economy with many business expanding their operations.
+5. The Top 5 Companies steadily grew their revenues with each year. 
+6. Despite a much lower total revenue in the industry in 2024, MCK, COST and MSFT have shown contrastingly stronger performance which suggests a resilient and sustainable growth. 
+7. For companies to continue staying ahead of revenue trends, they should focus on sustainable growth strategies and innovation to secure greater increases in the coming years.
+
+### Revenue
+![image](https://github.com/user-attachments/assets/5c33d471-a479-4388-a435-32405c56669b)
+
+1. On average, the US companies mostly remained stable, with a modest growth in revenue of 2%.
+2. Two signficant spikes were observed from 2018-2019 and 2021-2022. This could be attributed to market recovery as businesses have expanded with more revenue.
+3. However, 2023-2024 saw a sharp decline, bringing total revenue to just slightly above 2019 levels.
+4. The period of 2022-2023 was likely marked by a strong economy with many business expanding their operations.
+5. The Top 5 Companies steadily grew their revenues with each year. 
+6. Despite a much lower total revenue in the industry in 2024, MCK, COST and MSFT have shown contrastingly stronger performance which suggests a resilient and sustainable growth. 
+7. For companies to continue staying ahead of revenue trends, they should focus on sustainable growth strategies and innovation to secure greater increases in the coming years.
+
+### Profit
+![image](https://github.com/user-attachments/assets/ea375d34-f130-4c2d-81f5-4364d8c2172a)
+
+1. Modest Net Income growth of 2% was observed from 2000-2024, which suggests limited overall growth during this period.
+2. Revenue experienced a sudden surge in 2022-2023, accompanied by proportional increases in Operating Income, Gross Profit and Net Income.
+3. The near-constant average Net Income Ratio and Gross Profit Ratio show that companies have maintaned stable margins despite revenue and profit fluctuations.
+4. This suggests that profitability growth is strongly tied to revenue growth, which can create risks during economic downturns and competitive pressures which suppress revenue.
+5. Similar to the suggestions for Revenue, companies should improve profitability through operational efficiency (e.g. automation) and cost control (e.g. reducing expenses) to reduce reliance on revenue alone.
+
+### Expense
+![image](https://github.com/user-attachments/assets/1cfab50c-e93e-491b-92e8-d815060214aa)
+
+1. Cost of Revenue Growth has remained stable with a modest growth of 2% from 2000-2024. This is in spite of the most significant spike in 2022-2023. 
+2. Cost of Revenue consistently surpassed than Operating Expenses and Depreciation & Amortization. This means that optimizing production & procurement costs (Cost of Revenue) are the most important to improve margins and profitability.
+3. Gross Profit is also healthy relative to Cost of Revenue, with an inverse relationship between the two metrics. 
+4. This stability indicates effective Gross Profit management, but it also suggests that companies have not significantly reduced their production cost base over time.
+5. To more signifcantly optimize cost of revenue, companies should focus on improving production efficiency (e.g. relationship-building with more efficient suppliers).
+6. To reduce operating expenses, strategic investments in automating administrative processes (e.g. cloud-based solutions to reduce IT costs) can be worthwhile in the long run.
 
 ## Future updates
 uploading onto the cloud to simulate storing financial data onto a shareable environment
