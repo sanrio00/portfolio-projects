@@ -140,14 +140,6 @@ Companies could consider adopting cost maangement strategies such as renegotiati
 ![image](https://github.com/user-attachments/assets/e90fac46-ed14-4b31-a930-24fc9d9b591d)
 ![image](https://github.com/user-attachments/assets/f6244d3c-643f-4784-9ea9-64ea72faf688)
 
-1. On average, the US companies mostly remained stable, with a modest growth in revenue of 2%.
-2. Two signficant spikes were observed from 2018-2019 and 2021-2022. This could be attributed to market recovery as businesses have expanded with more revenue.
-3. However, 2023-2024 saw a sharp decline, bringing total revenue to just slightly above 2019 levels.
-4. The period of 2022-2023 was likely marked by a strong economy with many business expanding their operations.
-5. The Top 5 Companies steadily grew their revenues with each year. 
-6. Despite a much lower total revenue in the industry in 2024, MCK, COST and MSFT have shown contrastingly stronger performance which suggests a resilient and sustainable growth. 
-7. For companies to continue staying ahead of revenue trends, they should focus on sustainable growth strategies and innovation to secure greater increases in the coming years.
-
 ### Revenue
 ![image](https://github.com/user-attachments/assets/5c33d471-a479-4388-a435-32405c56669b)
 
