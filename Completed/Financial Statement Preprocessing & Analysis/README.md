@@ -63,7 +63,7 @@ To ensure that the datasets are ready for merging and analysis, the below steps 
  
 After all of the 4 datasets have been cleaned, they are merged into a single DataFrame. Additional data cleaning such as dropping duplicates and removing rows with impossible negative values were also performed to ensure data integrity.
 
-## Step 3: Exploratory Data Analysis
+## 3. Exploratory Data Analysis
 ### Outliers & Frequency Distribution
 Upon analyzing the dataset using boxplots and histogram, **Net Income Ratio and Gross Profit Ratio** predominantly fall within the interquartile range (i.e. 25%-75% of the maximum value). This is within expectations because both ratios are a proportion of revenue, which naturally restricts the range.
 
@@ -135,7 +135,7 @@ Average Gross Profit and Average Cost of Revenue appear to move together and rem
 
 Companies could consider adopting cost maangement strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
 
-## Step 4: Excel Dashboard & Analysis
+## 4. Excel Dashboard & Analysis
 ### Profit & Loss Statement
 ![image](https://github.com/user-attachments/assets/e90fac46-ed14-4b31-a930-24fc9d9b591d)
 ![image](https://github.com/user-attachments/assets/f6244d3c-643f-4784-9ea9-64ea72faf688)
