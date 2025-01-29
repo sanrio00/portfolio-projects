@@ -133,26 +133,29 @@ Overall, the Average Gross Profit manages to stay consistently above the Average
 
 Average Gross Profit and Average Cost of Revenue appear to move together and remain largely stable until 2019, where slight fluctuations are observed and both metrics share an inverse relationship.
 
-Companies could consider adopting cost maangement strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
+Companies could consider adopting cost management strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
 
 ## 4. Excel Dashboard & Analysis
-We have summarized the dataset into 4 tabs: P&L, Revenue, Profit & Expense. Each tab is interactive with Year and Stock filters to adjust to observe the specific performance of the years and companies.
+We have summarized the dataset into 4 tabs: P&L, Revenue, Profit & Expense. The tabs are toggleable at the left side of the worksheet. Each tab is interactive with Year and Stock filters to adjust the specific performance of the years and companies.
 
 ### Profit & Loss Statement (P&L)
 ![image](https://github.com/user-attachments/assets/e90fac46-ed14-4b31-a930-24fc9d9b591d)
 ![image](https://github.com/user-attachments/assets/f6244d3c-643f-4784-9ea9-64ea72faf688)
 
-The P&L statement of all companies are divided into Year-on-Year % Changes of each metric at the top, as well as the Absolute Figures based on Total Sum at the bottom.
+The P&L statement of all companies are divided into Year-on-Year % Changes of each metric at the top and Absolute Figures based on total sums at the bottom.
 
 1. All metrics from Revenue to Depreciation & Amortization (D&A) experienced minimal fluctuations from 2000 to 2018.
-2. 2018-2019 saw a significant spike across all metrics, especially in Interest Expense where the increase was as high as 13 times of the previous year. This could very likely be attributed to market recovery as businesses expand with more revenue.
-3. 
+2. 2018-2019 saw a significant spike across all metrics, especially in Interest Expense where the increase was as high as 13 times of the previous year. This likely reflects a market recovery, where businesses expanded operations alongside revenue growth. This upward trend continued in 2019-2020 at a lower magnitude.
+3. 2021-2022 saw another sharp increase, with Revenue and Cost of Revenue experiencing the largest percentage jumps by 55% and 62% respectively. This indicates that while companies are generating more revenue, operational costs have scaled up significantly as well. 
+4. 2023-2024 saw the steepest decline with all metrics turning negatives. This could be due to economic downturns, or insufficient data for a full assessment of 2024.
+5. In general, the economic landscape of the given year has the greatest influence of each metric's performance, with no metric operating independently of this trend.
+6. Amid rising expenses, companies should focus improving cost efficiency to sustain revenue growth and profitability.
 
 ### Revenue
 ![image](https://github.com/user-attachments/assets/5c33d471-a479-4388-a435-32405c56669b)
 
 1. On average, the US companies mostly remained stable, with a modest growth in revenue of 2%.
-2. Two signficant spikes were observed from 2018-2019 and 2021-2022. This could be attributed to market recovery as businesses have expanded with more revenue.
+2. Two signficant spikes were observed from 2018-2019 and 2021-2022. This could be attributed to economic growth as businesses expanded alongside revenue growth.
 3. However, 2023-2024 saw a sharp decline, bringing total revenue to just slightly above 2019 levels.
 4. The period of 2022-2023 was likely marked by a strong economy with many business expanding their operations.
 5. The Top 5 Companies steadily grew their revenues with each year. 
@@ -179,5 +182,4 @@ The P&L statement of all companies are divided into Year-on-Year % Changes of ea
 6. To reduce operating expenses, strategic investments in automating administrative processes (e.g. cloud-based solutions to reduce IT costs) can be worthwhile in the long run.
 
 ## Future updates
-uploading onto the cloud to simulate storing financial data onto a shareable environment
-creating a ETL pipeline with Apache Airflow to regularly automate the API requests year on year
+We plan to implement cloud storage on AWS S3 to simulate storing and sharing financial data in a collaborative environment. Additionally, we could also consider developing an ETL pipeline using Apache Airflow to automate API requests on a yearly basis to enable regular updates.
