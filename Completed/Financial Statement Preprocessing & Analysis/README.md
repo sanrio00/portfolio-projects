@@ -16,7 +16,7 @@ Synthetic datasets containing simulated financial metrics and stocks were also g
 [**API Calling & Data Preprocessing Notebook**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/api_calling_data_preprocessing.ipynb), [**Exploratory Data Analysis (EDA)**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/eda.ipynb), 
 [**Excel Dashboard**](https://1drv.ms/x/c/21f22e0d41f3e320/EdA4KLcROkdNtyCEL4mimhQBn5mgBkvwKamyAL9S2VWezA?e=PjQH5N)
 
-## Financial Metrics Used (may place at Extraction step)
+## Financial Metrics Used
 **Revenue**: Revenue, Revenue Growth (%)
 
 **Profit**: Operating Income, Gross Profit, Gross Profit Ratio, (%), Net Income, Net Income Ratio (%), EBITDA
