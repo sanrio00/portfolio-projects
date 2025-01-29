@@ -136,9 +136,17 @@ Average Gross Profit and Average Cost of Revenue appear to move together and rem
 Companies could consider adopting cost maangement strategies such as renegotiating supplier contracts or diversify revenue streams to control cost of revenues and further stabilize gross profit margins.
 
 ## 4. Excel Dashboard & Analysis
-### Profit & Loss Statement
+We have summarized the dataset into 4 tabs: P&L, Revenue, Profit & Expense. Each tab is interactive with Year and Stock filters to adjust to observe the specific performance of the years and companies.
+
+### Profit & Loss Statement (P&L)
 ![image](https://github.com/user-attachments/assets/e90fac46-ed14-4b31-a930-24fc9d9b591d)
 ![image](https://github.com/user-attachments/assets/f6244d3c-643f-4784-9ea9-64ea72faf688)
+
+The P&L statement of all companies are divided into Year-on-Year % Changes of each metric at the top, as well as the Absolute Figures based on Total Sum at the bottom.
+
+1. All metrics from Revenue to Depreciation & Amortization (D&A) experienced minimal fluctuations from 2000 to 2018.
+2. 2018-2019 saw a significant spike across all metrics, especially in Interest Expense where the increase was as high as 13 times of the previous year. This could very likely be attributed to market recovery as businesses expand with more revenue.
+3. 
 
 ### Revenue
 ![image](https://github.com/user-attachments/assets/5c33d471-a479-4388-a435-32405c56669b)
