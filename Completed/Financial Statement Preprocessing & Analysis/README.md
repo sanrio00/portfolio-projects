@@ -13,7 +13,7 @@ Synthetic datasets containing simulated financial metrics and stocks were also g
 **Subjects Covered**: API calling, simulation, data wrangling, transformation
 
 **Documents**: [**Merged DataFrame**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/merged_df.csv), 
-[**API Calling & Data Preprocessing Notebook**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/api_calling_data_preprocessing.ipynb), [**Exploratory Data Analysis (EDA)**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/eda.ipynb), 
+[**API Calling & Data Preprocessing Notebook**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/api_calling_data_preprocessing.ipynb),[**Exploratory Data Analysis (EDA)**](https://github.com/sanrio00/portfolio-projects/blob/main/Completed/Financial%20Statement%20Preprocessing%20%26%20Analysis/eda.ipynb), 
 [**Excel Dashboard**](https://1drv.ms/x/c/21f22e0d41f3e320/EdA4KLcROkdNtyCEL4mimhQBn5mgBkvwKamyAL9S2VWezA?e=PjQH5N)
 
 ## Financial Metrics Used
